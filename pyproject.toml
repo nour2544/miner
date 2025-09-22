@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "Gradients-on-Demand"
+name = "Laxaum"
 version = "0.0.3"
-description = "Validator and Miner for Gradients on Demand"
+description = "Validator and Miner for Laxaum"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
@@ -49,8 +49,7 @@ dependencies = [
     "gitpython",
     "nvidia-ml-py3",
     "aiofiles",
-    "astor",
-    "btcli"
+    "astor"
 ]
 
 [project.optional-dependencies]

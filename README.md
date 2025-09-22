@@ -20,7 +20,8 @@ cd miner
 
 2.Install system dependencies:
 
-```bash
+```
+chmod +x ./bootstrap.sh
 sudo -E ./bootstrap.sh
 source $HOME/.bashrc
 source $HOME/.venv/bin/activate
@@ -30,6 +31,7 @@ source $HOME/.venv/bin/activate
 
 ```bash
 task install
+pip install bittensor-cli
 ```
 
 ** FOR DEV **
