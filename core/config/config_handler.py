@@ -82,7 +82,7 @@ def update_model_info(config: dict, model: str, job_id: str = "", expected_repo_
             )
             config["hub_model_id"]=hf_repo
             logger.info(f"Creating HF repo success:{hf_repo}")
-        except e:
+        except Exception as e:
             logger.error(f"Creating HF repo failed:{e}")
             config["hub_model_id"]=None
 
